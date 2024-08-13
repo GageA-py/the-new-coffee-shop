@@ -9,3 +9,6 @@ def index():
 
 
 
+@app.route('/home')
+def home():
+    return ""
